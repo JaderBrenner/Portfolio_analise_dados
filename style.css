@@ -180,3 +180,7 @@ footer {
   vertical-align: middle;
   opacity: 0.9;
 }
+
+.justificado {
+  text-align: justify;
+}
