@@ -1,0 +1,182 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: white;
+  color: #1a1a1a;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #6a5acd;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #6a5acd;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.projeto {
+  border-left: 4px solid #6a5acd;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  color: #888;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.imagem-projeto {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.icones {
+  font-size: 1.5rem;
+  color: #6a5acd;
+  margin: 0.5rem 0;
+}
+
+.icones i {
+  margin-right: 0.8rem;
+}
+
+.badges img {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 24px;
+}
+.imagem-projeto {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.cabecalho-projeto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.status-badge {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.status-badge img {
+  vertical-align: middle;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.badges img {
+  height: 20px; /* Tamanho menor */
+  margin-right: 0.5rem;
+}
+
+#contato {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.links-contato {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.links-contato a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links-contato a:hover {
+  color: #0077b5; /* cor azul LinkedIn como destaque ao passar o mouse */
+}
+
+.icone-contato {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.icone-inline {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+  opacity: 0.7; /* ícone sutil */
+}
+
+.ferramentas-inline {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.item-ferramenta {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.icone-inline {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+  opacity: 0.9;
+}
